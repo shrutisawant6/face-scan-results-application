@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face</title>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="generationDetails.js"></script>
+    <script defer src="site.js"></script>
+    <style>
+        body {
+            background-image: url('../images/bckgrdimage.jpg');
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            position: absolute;
+        }
+    </style>
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div>
+        <video id="video" width="720" height="560" autoplay muted />
+    </div>
+</body>
+</html>

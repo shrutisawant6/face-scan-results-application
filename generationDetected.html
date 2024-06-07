@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="jquery.min.js"></script>
+    <script defer src="generationDetails.js"></script>
+    <script defer src="generationDetected.js"></script>
+
+    <style>
+        .dynamic-text {
+            font-size: x-large;
+            color: #002147;
+            padding: 2vh;
+            white-space: pre-wrap;
+            border-style: solid;
+            border-color: aliceblue;
+            border-width: thick;
+        }
+
+        button {
+            padding: 5vh;
+            border: none;
+            background: none;
+            display: table;
+            margin: 0 auto;
+            color: #5b9aa0;
+            font-size: x-large;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="userActivationBtn" onclick="InitialChanges();">
+            Scan results incoming!<br />The speech rate will adjust accordingly.<br />
+            <span style="color: #4CBB17 ">Tap here to fill up the box.</span>
+        </button>
+    </div>
+
+    <div id="detectionInfo" class="dynamic-text"></div>
+</body>
+</html>

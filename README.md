@@ -8,7 +8,7 @@ Factors influencing the scan:
 - Centered face within the application's frame
 - Gentle face/photo movement for detection and scanning
 
-Reference: face-api.js 
+Extension to https://github.com/shrutisawant6/face-scan-exe
 
 **Result**
 

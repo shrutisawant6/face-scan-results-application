@@ -1,6 +1,6 @@
 # Face Scan Result Application
 
-Based on your age, a **description is read at a speed tailored to each generation**. Simply scan your face/photo, tap on the results and verify the text that's read aloud. 
+Based on your age, a **description is read at a speed tailored to each generation**. Simply scan your face/photo, tap on the results and verify the text read aloud. 
 **Try with multiple age groups**. 👶 👦 👵
 
 Factors influencing the scan:

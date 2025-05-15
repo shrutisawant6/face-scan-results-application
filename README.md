@@ -6,7 +6,7 @@ Based on your age, a **description is read at a speed tailored to each generatio
 Factors influencing the scan:
 - Adequate lighting
 - Centered face within the application's frame
-- Gentle face/photo movement for detection and scanning
+- Gentle face/photo movement for detection and scanning 
 
 Extension to https://github.com/shrutisawant6/face-scan-exe
 
